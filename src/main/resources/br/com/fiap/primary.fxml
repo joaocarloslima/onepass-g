@@ -9,8 +9,8 @@
 <VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.fiap.PrimaryController">
    <children>
       <Label text="Digite a senha" />
-      <PasswordField />
-      <Button fx:id="primaryButton" onAction="#switchToSecondary" text="Entrar" />
+      <PasswordField fx:id="senha" />
+      <Button fx:id="primaryButton" onAction="#logar" text="Entrar" />
    </children>
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
